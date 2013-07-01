@@ -71,6 +71,7 @@ library
                  , conduit                       >= 1.0
                  , monad-logger                  >= 0.3
                  , fast-logger                   >= 0.3
+                 , feed                          >= 0.3.8
 
 executable         dwreader
     if flag(library-only)
