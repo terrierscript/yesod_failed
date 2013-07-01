@@ -6,3 +6,4 @@ import Application          (makeApplication)
 
 main :: IO ()
 main = defaultMain (fromArgs parseExtra) makeApplication
+
