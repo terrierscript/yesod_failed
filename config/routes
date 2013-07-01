@@ -8,3 +8,4 @@
 
 /echo/#String EchoR GET
 /feed/ FeedR GET POST
+/kiji KijiR GET
