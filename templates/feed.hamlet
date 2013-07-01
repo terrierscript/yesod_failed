@@ -1,0 +1,4 @@
+<h1>feed登録してね
+  <form method=post>
+    ^{feedWidget}
+    <input type="submit" value="Register!!!!">
