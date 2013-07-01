@@ -11,4 +11,5 @@ Email
 Feed
     url Text
     name Text
+    deriving
  -- By default this file is used in Model.hs (which is imported by Foundation.hs)

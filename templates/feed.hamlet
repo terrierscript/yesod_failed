@@ -1,4 +1,11 @@
 <h1>feed登録してね
-  <form method=post>
+  <form method="post" enctype=#{enctype}>
     ^{feedWidget}
     <input type="submit" value="Register!!!!">
+$if null feeds
+  <p> feed登録されてないよ </p>
+$else
+  <ul>
+    $forall Entity feedId feed <- feeds
+      <li>
+        <a href=#{feedUrl feed}>#{feedUrl feed}</a>
